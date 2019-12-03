@@ -104,7 +104,7 @@ let python_highlight_all=1
 syntax on
 
 set background=dark
-colorscheme dracula
+"colorscheme dracula
 " set cliboard
 set clipboard=unnamed
 "set editing-mode vi

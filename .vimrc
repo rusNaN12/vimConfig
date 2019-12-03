@@ -32,7 +32,6 @@ Plugin 'tpope/vim-fugitive'
 " power line
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 "color sheme
-Plugin 'dracula/vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'morhetz/gruvbox'

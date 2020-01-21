@@ -40,6 +40,8 @@ Plugin 'morhetz/gruvbox'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+colorscheme gruvbox
+
 set splitbelow
 set splitright
 
@@ -48,6 +50,11 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" outo open NERD Tree
+" autocmd VimEnter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " Enable folding
 set foldmethod=indent

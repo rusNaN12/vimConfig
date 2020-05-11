@@ -18,6 +18,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 " autoComplete
 Bundle 'Valloric/YouCompleteMe'
+" code autocomplete
+Plugin 'zxqfl/tabnine-vim'
 " syntax highlight
 Plugin 'vim-syntastic/syntastic'
 " flake8 
